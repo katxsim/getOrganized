@@ -1,0 +1,26 @@
+{
+  "name": "getorganized",
+  "version": "1.0.0",
+  "description": "get organized!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katxsim/getOrganized.git"
+  },
+  "author": "Kathryn Simone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katxsim/getOrganized/issues"
+  },
+  "homepage": "https://github.com/katxsim/getOrganized#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.1"
+  }
+}
