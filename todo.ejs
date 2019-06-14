@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Todo List</title>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="/assets/todo-list.js"></script>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body>
+<h1 style="height:140px; background:url(https://static1.squarespace.com/static/58efd265bf629a9dbf53c01b/t/59e958e612abd95b0d83e429/1508464876303/Get+Organized%21+Header+Black.png) no-repeat center;text-indent:-33333px">Hi!</h1>
+<div id="todo-table">
+    <form method="post">
+        <input type="text" name="item" placeholder="Just do it..." required />
+        <button type="submit"> Get it done! </button>
+    </form>
+    <ul>
+        <%for(var i=0; i<todos.length; i++) { %>
+            <li><%= todos[i].item %></li><% } %>
+    </ul>
+</div>
+</body>
+</html>
